@@ -1,0 +1,19 @@
+{
+  "name": "curso-bootstrap",
+  "version": "1.0.0",
+  "description": "primer proyecto con Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksIvanVel/curso-bootstrap.git"
+  },
+  "author": "Aleks Velazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksIvanVel/curso-bootstrap/issues"
+  },
+  "homepage": "https://github.com/AleksIvanVel/curso-bootstrap#readme"
+}
