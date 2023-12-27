@@ -18,7 +18,7 @@ footer a{
     text-decoration: none;
 }
 
-.car-hotel{
+.card-hotel{
     flex: 1 150px;
     padding: 2px 5px 2px 5px;
 }
@@ -29,7 +29,7 @@ footer a{
 
 .btn-reserva{
     width: 100%;
-    margin-bottom: 10px;
+    border-radius: 0px;
 }
 
 .footer-address-icon{
