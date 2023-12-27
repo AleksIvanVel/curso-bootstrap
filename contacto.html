@@ -17,10 +17,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link active" href="./about.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
-                <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./contacto.html">Contacto</a></li>
             </ul>
         </div>
     </nav>
@@ -31,29 +31,62 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
             </ol>
         </nav>
-        <span>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam aperiam est quisquam, laudantium, in non corrupti
-            natus deleniti perspiciatis ad, sunt cum aut unde sequi nihil quia rerum veniam doloribus?
-            Quaerat deserunt nulla exercitationem repellendus officiis omnis laudantium! Iusto dolorem quaerat consequatur qui.
-            Aliquid reiciendis, expedita perferendis officiis voluptates rerum sit totam harum optio ullam dolor aliquam odio natus
-            exercitationem.
-            Maiores, tempore reprehenderit mollitia in, sit ullam, molestiae temporibus consequuntur eligendi repellendus neque
-            architecto officiis fuga veritatis facilis nemo consectetur quasi. Quam inventore laudantium culpa tenetur odio debitis
-            mollitia illum.
-            Culpa ea itaque nemo reiciendis eum ipsum doloremque explicabo consequuntur ex? Natus laborum provident eos autem
-            tempore culpa quia iste sunt, debitis velit iure cupiditate, vel reiciendis modi a blanditiis.
-            Officia animi dolores odit provident atque eius nam quas, repudiandae ullam facere adipisci iusto incidunt hic. Iste non
-            quas provident corporis nesciunt omnis molestiae iure incidunt quisquam quasi, soluta dolor?
-            Numquam optio voluptate impedit sit veniam ratione! Voluptates magni sunt qui! Repudiandae, excepturi doloribus, ab
-            provident facere quo libero laudantium iure obcaecati deserunt est, ea eos itaque ducimus at eveniet!
-            Ad ipsa eligendi suscipit dolorem illum maiores corporis voluptatem, assumenda ullam nihil accusantium quaerat iure? Cum
-            ad recusandae ducimus necessitatibus voluptates beatae illo, voluptatibus eligendi vero sequi incidunt. Dolore, dolor!
-            Provident accusantium eius adipisci quaerat veritatis explicabo placeat dolores commodi, nulla fugiat ex, magni
-            temporibus dolorum iste at iure accusamus porro rem quis ratione vero totam qui quasi? Quae, quidem.
-        </span>
+
+        <h1>Dejame tu comentario</h1>
+
+        <form>
+            <div class="form-row">
+                <div class="col-sm-6 form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+
+                <div class="col-sm-6 form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+            </div>
+
+            <div class="form-row">
+                <div class="col-sm-6 form-group">
+                    <label for="domicilio">Domicilio</label>
+                    <input type="text" class="form-control" id="domicilio" 
+                    placeholder="Ingrese su domicilio">
+                </div>
+
+                <div class="col-sm-6 form-group">
+                    <label for="provincia">Provincia o estado</label>
+                    <select id="provincia" class="form-control">
+                        <option selected>CDMX</option>
+                        <option>Estado de Mexico</option>
+                        <option>Puebla</option>
+                        <option>Guanajuato</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="comentaio">Comentario</label>
+                <textarea id="comentario" class="form-control" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label for="gridCheck" class="form-check-label">Quiero que me contacten</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>
+        </form>
     </div>
 
 
