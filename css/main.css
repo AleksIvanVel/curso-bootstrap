@@ -32,6 +32,14 @@ footer a{
     border-radius: 0px;
 }
 
+footer .row{
+    padding: 10px;
+}
+
 .footer-address-icon{
     padding-right:10px;
+}
+
+img{
+    width: 100%;
 }
