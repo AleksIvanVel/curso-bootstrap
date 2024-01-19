@@ -174,7 +174,7 @@
                     <h7 class="card-subtitle text-muted"> CDMX</h7>
                     <img src="images/h7.jpeg" alt="imagen hotel 7" class="card-img-top">
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
-                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto">
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto" id="contacto">
                         Contacto
                       </button>
                 </div>
@@ -246,7 +246,29 @@
           $("[data-bs-toggle='tooltip']").tooltip();
           $("[data-bs-toggle='popover']").popover();  
           $('.carousel').carousel({
-            interval: 3000
+            interval: 5000
+          });
+
+          $('#contacto').on('show.bs.modal', function (e){
+            console.log('el modal se esta mostrando');
+            $('#contacto').removeClass('btn-outline-success');
+            $('#contacto').addClass('btn-primary');
+            $('#contacto').prop('disabled', true);
+          });
+
+            
+
+          $('#contacto').on('shown.bs.modal', function (e){
+            console.log('el model se mostró');
+          });
+
+          $('#contacto').on('hidde.bs.modal', function (e){
+            console.log('el model contato se oculta');
+          });
+
+          $('#contacto').on('hidde.bs.modal', function (e){
+            console.log('el model contato se ocultó');
+            $('#contacto').prop('disabled', false);
           });
         });
     </script>
